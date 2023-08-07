@@ -14,11 +14,18 @@ class HelloWorld
         Console.WriteLine("Multiplication = " + result);
     }
 
+    static void Division(double x, double y)
+    {
+        double result = x / y;
+        Console.WriteLine("Division = " + result);
+    }
+
     public static void Main(string[] args)
     {
         Console.WriteLine("Hello World!\n");
         Sum(1, 2);
         Multiply(5, 4);
+        Division(10, 6);
     }
     
 }
